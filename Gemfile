@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'activerecord', '4.2', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 
+gem 'bigdecimal', '~>1.4'
 gem 'sinatra'
 gem 'sqlite3', '~>1.3.6'
 gem 'tux'
